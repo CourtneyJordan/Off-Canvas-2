@@ -5,15 +5,7 @@
 	  min-height: 100%;
 	}
 
-	.nav-toggle {
-	  color: white;
-	  left: 20px;
-	  position: absolute;
-	  top: 20px;	
-	}
-
 	.site {
-		background: red;
 		float: right;
 		position: fixed;
 		width: 100%;

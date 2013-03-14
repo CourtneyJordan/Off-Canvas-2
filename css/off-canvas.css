@@ -7,8 +7,9 @@
 	}
 
 	.site {
+		left:0;
 		width: 100%;
-		transition: width 0.3s ease;
+		z-index: 500;
 	}
 
 	.main-nav {
@@ -20,8 +21,9 @@
 	}
 
 	.page {
+		left:0;
 		width: 100%;
-		transition: width 0.3s ease;
+		z-index: 1000;
 	}
 
 	.open-menu {
@@ -34,7 +36,8 @@
 	/* Open/Close Menu */
 
 	.active-nav .main-nav {
-  		width: 80%;
+		overflow-y: scroll;
+  		width: 95%;
 	}
 
 	.active-nav .site,
@@ -42,11 +45,11 @@
 		position: fixed;
 		clear: right;
 		left: 80%;
+		z-index: 1000;
 	}
 
 	.active-nav .site {
 		top: 0;
-		z-index: 2000;
 	}
 
 	.active-nav .page {

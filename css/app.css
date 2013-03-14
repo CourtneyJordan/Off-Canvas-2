@@ -7,6 +7,12 @@
 .site {
 	background: red;
 	height: 44px;
+	transition: left 0.5s ease;
+		-webkit-transition: left 0.5s ease;
+		-moz-transition: left 0.5s ease;
+		-o-transition: left 0.5s ease;
+		-ms-transition: left 0.5s ease;
+		-webkit-transform: translateZ(0);
 }
 
 .site h1 {
@@ -23,6 +29,12 @@
 /* Left Menu Navigational Styles */
 .main-nav {
 	background: #3B3B3B;
+	transition: left 0.5s ease;
+		-webkit-transition: left 0.5s ease;
+		-moz-transition: left 0.5s ease;
+		-o-transition: left 0.5s ease;
+		-ms-transition: left 0.5s ease;
+		-webkit-transform: translateZ(0);
 }
 
 .main-nav a {
@@ -34,8 +46,13 @@
   padding: 15px;
 }
 
-
 /* Page (Content Section) Styles */
 .page {
 	background: #FFF;
+	transition: left 0.5s ease;
+		-webkit-transition: left 0.5s ease;
+		-moz-transition: left 0.5s ease;
+		-o-transition: left 0.5s ease;
+		-ms-transition: left 0.5s ease;
+		-webkit-transform: translateZ(0);
 }

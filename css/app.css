@@ -20,11 +20,11 @@
 }
 
 /* Left Menu Navigational Styles */
-.menu-nav {
+.main-nav {
 	background: #3B3B3B;
 }
 
-.menu-nav a {
+.main-nav a {
   display: block;
   background: #3e3e3e;
   border-top: 1px solid #484848;

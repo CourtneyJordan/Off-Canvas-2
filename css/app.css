@@ -5,13 +5,14 @@
 
 /* Site Header Stlyes */
 .site {
-	background: red;
+	background: #036;
 	height: 44px;
-	transition: left 0.5s ease;
-		-webkit-transition: left 0.5s ease;
-		-moz-transition: left 0.5s ease;
-		-o-transition: left 0.5s ease;
-		-ms-transition: left 0.5s ease;
+	overflow: hidden;
+	transition: left 1s ease;
+		-webkit-transition: left 1s ease;
+		-moz-transition: left 1s ease;
+		-o-transition: left 1s ease;
+		-ms-transition: left 1s ease;
 		-webkit-transform: translateZ(0);
 }
 
@@ -29,11 +30,11 @@
 /* Left Menu Navigational Styles */
 .main-nav {
 	background: #3B3B3B;
-	transition: left 0.5s ease;
-		-webkit-transition: left 0.5s ease;
-		-moz-transition: left 0.5s ease;
-		-o-transition: left 0.5s ease;
-		-ms-transition: left 0.5s ease;
+	transition: left 1s ease;
+		-webkit-transition: left 1s ease;
+		-moz-transition: left 1s ease;
+		-o-transition: left 1s ease;
+		-ms-transition: left 1s ease;
 		-webkit-transform: translateZ(0);
 }
 
@@ -49,10 +50,10 @@
 /* Page (Content Section) Styles */
 .page {
 	background: #FFF;
-	transition: left 0.5s ease;
-		-webkit-transition: left 0.5s ease;
-		-moz-transition: left 0.5s ease;
-		-o-transition: left 0.5s ease;
-		-ms-transition: left 0.5s ease;
+	transition: left 1s ease;
+		-webkit-transition: left 1s ease;
+		-moz-transition: left 1s ease;
+		-o-transition: left 1s ease;
+		-ms-transition: left 1s ease;
 		-webkit-transform: translateZ(0);
 }

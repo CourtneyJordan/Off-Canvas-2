@@ -1,0 +1,83 @@
+/* Default Styles */
+@media screen {
+
+	html, body {
+	  min-height: 100%;
+	}
+
+	.nav-toggle {
+	  color: white;
+	  left: 20px;
+	  position: absolute;
+	  top: 20px;	
+	}
+
+	.site {
+		background: red;
+		float: right;
+		position: fixed;
+		width: 100%;
+		transition: width 0.3s ease;
+	}
+
+	.main-nav {
+		position: fixed;
+		top: 0;
+  		width: 0;
+  		height: 100%;
+  		background: #3B3B3B;
+	}
+
+	.page {
+		background: lightblue;
+		float: right;
+		width: 100%;
+		transition: width 0.3s ease;
+	}
+
+	.open-menu {
+		display: inline-block;
+		color: #FFF;
+		font-size: 1.5em;
+		padding: 10px 12px;
+	}
+
+	/* Open/Close Menu */
+
+	.active-nav .main-nav {
+  		width: 80%;
+	}
+
+	.active-nav .site,
+	.active-nav .page {
+		position: fixed;
+		clear: right;
+		left: 80%;
+	}
+
+	.active-nav .site {
+		top: 0;
+		z-index: 2000;
+	}
+
+	.active-nav .page {
+		margin-top: 44px;
+	}
+
+
+}
+
+/* Medium Displays: 768px - 1279px */
+@media only screen and (min-width: 48em) {
+
+}
+
+/* Large Displays: 1280px - 1440px */
+@media only screen and (min-width: 80em) {
+
+}
+
+/* X-Large Displays: 1400px and up */
+@media only screen and (min-width: 90em) {
+
+}

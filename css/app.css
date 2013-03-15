@@ -8,12 +8,6 @@
 	background: #036;
 	height: 44px;
 	overflow: hidden;
-	transition: left 1s ease;
-		-webkit-transition: left 1s ease;
-		-moz-transition: left 1s ease;
-		-o-transition: left 1s ease;
-		-ms-transition: left 1s ease;
-		-webkit-transform: translateZ(0);
 }
 
 .site h1 {
@@ -27,15 +21,42 @@
 	float: left;
 }
 
+.main-nav-controls {
+	height: 60px;
+	width: 100%;
+}
+
+.main-nav .nav-wrap {
+	padding-top: 60px;
+}
+
+.main-nav-search {
+	margin: 0;
+}
+
+.main-nav .menu-search-box {
+	background: #2e2e2e;
+	border: 1px solid #484848;
+	border-top: 1px solid #1e1e1e;
+	float: left;
+	padding: 7;
+	margin: 17px 0 0 15px;
+	width: 60%;
+}
+
+.main-nav .menu-search-button {
+	background: #3e3e3e;
+	border: 1px solid #484848;
+	border-bottom: 1px solid #2e2e2e;
+	color: #FFF;
+	float: left;
+	margin: 16px 0 0 10px;
+	padding: 6px 9px;
+}
+
 /* Left Menu Navigational Styles */
 .main-nav {
 	background: #3B3B3B;
-	transition: left 1s ease;
-		-webkit-transition: left 1s ease;
-		-moz-transition: left 1s ease;
-		-o-transition: left 1s ease;
-		-ms-transition: left 1s ease;
-		-webkit-transform: translateZ(0);
 }
 
 .main-nav a {
@@ -50,10 +71,4 @@
 /* Page (Content Section) Styles */
 .page {
 	background: #FFF;
-	transition: left 1s ease;
-		-webkit-transition: left 1s ease;
-		-moz-transition: left 1s ease;
-		-o-transition: left 1s ease;
-		-ms-transition: left 1s ease;
-		-webkit-transform: translateZ(0);
 }

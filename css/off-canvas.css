@@ -9,21 +9,43 @@
 	.site {
 		left:0;
 		width: 100%;
-		z-index: 500;
+		z-index: 1500;
 	}
 
 	.main-nav {
 		position: fixed;
-		top: 0;
-  		width: 0;
+  		width: 100%;
   		height: 100%;
-  		overflow: hidden
+  		z-index: 100;
+	}
+
+	.main-nav .main-nav-controls {
+		position: fixed;
+		top: 0;
+	}
+
+	.main-nav .nav-wrap {
+		height: 100%;
+		overflow-y: scroll;
 	}
 
 	.page {
 		left:0;
+		padding-top: 44px;
+		position: absolute;
 		width: 100%;
 		z-index: 1000;
+	}
+
+	.site,
+	.page {
+		position: absolute;
+		transition: left 1s ease;
+			-webkit-transition: left 1s ease;
+			-moz-transition: left 1s ease;
+			-o-transition: left 1s ease;
+			-ms-transition: left 1s ease;
+			-webkit-transform: translateZ(0);
 	}
 
 	.open-menu {
@@ -34,7 +56,6 @@
 	}
 
 	/* Open/Close Menu */
-
 	.active-nav .main-nav {
 		overflow-y: scroll;
   		width: 95%;

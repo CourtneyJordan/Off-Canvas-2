@@ -96,5 +96,5 @@
 
 /* Page (Content Section) Styles */
 .page {
-	background: url(../images/groovepaper.png) repeat;
+	background: url(../images/groovepaper.png) repeat 0 0 #FFF;
 }

@@ -135,7 +135,7 @@ $(document).ready(function() {
 			// Add the active menu statis
 			$('html').removeClass('active-nav');
 
-			window.scroll(0, scrollTop + 44);
+			window.scroll(0, scrollTop);
 
 		} else {
 

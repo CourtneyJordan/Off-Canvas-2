@@ -32,6 +32,7 @@
 
 	.page {
 		left:0;
+		min-height: 100%;
 		padding-top: 44px;
 		position: absolute;
 		width: 100%;

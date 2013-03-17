@@ -14,7 +14,7 @@
 	color: #FFF;
 	font-size: 1.3em;
 	float: left;
-	margin: 7px 0 0 10px;
+	margin: 9px 0 0 5px;
 }
 
 .site .nys-icon {
@@ -97,4 +97,103 @@
 /* Page (Content Section) Styles */
 .page {
 	background: url(../images/groovepaper.png) repeat 0 0 #FFF;
+}
+
+.page .logo {
+	margin: 25px auto;
+}
+
+.page .center-text {
+	text-align: center;
+}
+
+.page .landing-search .search-textbox {
+	width: 100%;
+	margin: auto;
+}
+
+.page .landing-search .search-button {
+	text-align: center;
+	width: 100%;
+	margin: 25px auto;
+	padding: 15px;
+}
+
+.page .location-address {
+	padding-top: 25px;
+}
+
+.page .contact-options,
+.page .additional-info,
+.page .location-list {
+	list-style: none;
+}
+
+.page .location-controls {
+	margin-bottom: 10px;
+}
+
+.page .location-phone {
+	float: left;
+	width: 50%;
+}
+
+.page .location-map {
+	float: right;
+	width: 45%;
+}
+
+.page .location-phone,
+.page .location-map {
+	display: inline-block;
+	padding: 7px 10px;
+}
+
+.page .location-image {
+	height: 100%;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.page .row-margin {
+	margin-bottom: 25px;
+}
+
+.page .location-list p {
+	color: #222222;
+}
+
+.page .location-list .miles {
+	float: right;
+}
+
+.page .primary {
+	color: #fff !important;
+	text-shadow: 0px -1px #777;
+	background: #415866; 
+	
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #688BA0 0%, #415866 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#688BA0), color-stop(100%,#415866)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #688BA0 0%,#415866 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(top, #688BA0 0%,#415866 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#688BA0', endColorstr='#415866',GradientType=0 ); /* IE6-8 */
+}
+
+.page .primary:hover {
+	background: #374B57; /* IE9 */
+	background: -moz-linear-gradient(top, #688BA0 0%, #374B57 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#688BA0), color-stop(100%,#374B57)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #688BA0 0%,#374B57 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(top, #688BA0 0%,#374B57 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#688BA0', endColorstr='#374B57',GradientType=0 ); /* IE6-8 */
+}
+
+.page .primary:active {
+	background: #688BA0; /* IE9 */
+	background: -moz-linear-gradient(top, #415866 0%, #688BA0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#415866), color-stop(100%,#688BA0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #415866 0%,#688BA0 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(top, #415866 0%,#688BA0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#415866', endColorstr='#688BA0',GradientType=0 ); /* IE6-8 */
 }

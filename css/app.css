@@ -104,25 +104,25 @@ div p span a {
 .facebook {
 	background: url(../images/facebook.png) no-repeat 0 0;
 	margin: 12px 0 0 12px;
-	padding: 0 0 10px 30px
+	padding: 0 0 10px 30px;
 }
 
 .twitter {
 	background: url(../images/twitter.png) no-repeat 0 0;
 	margin: 12px 0 0 12px;
-	padding: 0 0 10px 30px
+	padding: 0 0 10px 30px;
 }
 
 .youtube {
 	background: url(../images/youtube.png) no-repeat 0 0;
 	margin: 12px 0 0 12px;
-	padding: 0 0 10px 30px
+	padding: 0 0 10px 30px;
 }
 
 .flickr {
 	background: url(../images/flickr.png) no-repeat 0 0;
 	margin: 12px 0 0 12px;
-	padding: 0 0 10px 30px
+	padding: 0 0 10px 30px;
 }
 
 /* Page (Content Section) Styles */

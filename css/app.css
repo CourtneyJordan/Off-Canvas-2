@@ -27,6 +27,7 @@ div p span a {
 }
 
 /* Left Menu Navigational Styles */
+
 .main-nav {
 	background: #3B3B3B;
 }
@@ -90,17 +91,43 @@ div p span a {
 	list-style: none;
 }
 
+.connect-with-us li {
+	border-bottom: 1px solid #2e2e2e;
+}
+
 .connect-with-us a {
 	color: #FFF;
 	display: block;
 	font-size: 1.1em;
-	padding: 15px;
-	border-bottom: 1px solid #2e2e2e;
+}
+
+.facebook {
+	background: url(../images/facebook.png) no-repeat 0 0;
+	margin: 12px 0 0 12px;
+	padding: 0 0 10px 30px
+}
+
+.twitter {
+	background: url(../images/twitter.png) no-repeat 0 0;
+	margin: 12px 0 0 12px;
+	padding: 0 0 10px 30px
+}
+
+.youtube {
+	background: url(../images/youtube.png) no-repeat 0 0;
+	margin: 12px 0 0 12px;
+	padding: 0 0 10px 30px
+}
+
+.flickr {
+	background: url(../images/flickr.png) no-repeat 0 0;
+	margin: 12px 0 0 12px;
+	padding: 0 0 10px 30px
 }
 
 /* Page (Content Section) Styles */
 .page {
-	background: url(../images/groovepaper.png) repeat 0 0 #FFF;
+	background: url(../images/furley.png) repeat 0 0 #FFF;
 }
 
 .page .logo {
@@ -114,7 +141,7 @@ div p span a {
 .page .landing-search .search-textbox {
 	width: 100%;
 	margin: auto;
-	border-radius: 4px;
+	border-radius: 5px;
 }
 
 .page .landing-search .search-button {
@@ -123,6 +150,7 @@ div p span a {
 	margin: 25px auto;
 	padding: 14px;
 	border: none;
+	border-radius: 5px;
 	font-size: 14px;
 }
 

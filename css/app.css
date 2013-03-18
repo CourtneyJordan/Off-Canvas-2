@@ -3,6 +3,10 @@
  Off Canvas Styles Strucutral Styles are in the off-canvas.css
 */
 
+div p span a {
+	color: #5A5A5A !important;
+}
+
 /* Site Header Stlyes */
 .site {
 	background: #036;
@@ -110,13 +114,16 @@
 .page .landing-search .search-textbox {
 	width: 100%;
 	margin: auto;
+	border-radius: 4px;
 }
 
 .page .landing-search .search-button {
 	text-align: center;
 	width: 100%;
 	margin: 25px auto;
-	padding: 15px;
+	padding: 14px;
+	border: none;
+	font-size: 14px;
 }
 
 .page .location-address {
@@ -168,7 +175,7 @@
 }
 
 .page .roundCorners {
-	border-radius: 10px;
+	border-radius: 6px;
 }
 
 .page .op-hours {

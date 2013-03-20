@@ -101,49 +101,6 @@ function menuBackButton(button) {
 
 }
 
-//Create an expandable unordered list with a click event 
-$(document).ready(function(){
-	$('.expandable1').on('click', function(event){
-		//alert('hello');
-		event.preventDefault();
-		$('.op-hour-div').toggle();
-	});
-	$('.op-hour-div').on('mouseenter', function() {
-		$(this).find('li').slideToggle('slow');
-	}).on('mouseleave', function() {
-		$(this).find('li').slideToggle('slow');
-  });
-});
-
-//Create an expandable unordered list with a click event
-$(document).ready(function(){
-	$('.expandable2').on('click', function(event){
-		//alert('hello');
-		event.preventDefault();
-		$('.parking-div').toggle();
-	});
-	$('.parking-div').on('mouseenter', function() {
-		$(this).find('li').slideToggle('slow');
-	}).on('mouseleave', function() {
-		$(this).find('li').slideToggle('slow');
-  });
-});
-
-//Create an expandable unordered list with a click event
-$(document).ready(function(){
-	$('.expandable3').on('click', function(event){
-		//alert('hello');
-		event.preventDefault();
-		$('.public-transit-div').toggle();
-	});
-	$('.public-transit-div').on('mouseenter', function() {
-		$(this).find('li').slideToggle('slow');
-	}).on('mouseleave', function() {
-		$(this).find('li').slideToggle('slow');
-  });
-});
-
-
 // Check to see if the off-canvas is menu item exits
 $(document).ready(function() {
 

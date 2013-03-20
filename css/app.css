@@ -2,6 +2,13 @@
  Front-end Specific Style.
  Off Canvas Styles Strucutral Styles are in the off-canvas.css
 */
+a {
+	color: #222222;
+}
+
+a:hover {
+	color: #444444;
+}
 
 div p span a {
 	color: #5A5A5A !important;
@@ -23,7 +30,8 @@ div p span a {
 
 .site .nys-icon {
 	float: right;
-	padding: 5px;
+	padding-right: 5px;
+	padding-top: 8px;
 }
 
 /* Left Menu Navigational Styles */
@@ -142,6 +150,7 @@ div p span a {
 	width: 100%;
 	margin: auto;
 	border-radius: 5px;
+	background: url(../images/magnifying-glass.png) no-repeat 99% 8px #FFF;
 }
 
 .page .landing-search .search-button {
@@ -151,11 +160,16 @@ div p span a {
 	padding: 14px;
 	border: none;
 	border-radius: 5px;
-	font-size: 14px;
+	font-size: 16px;
+}
+
+.page .gps-icon {
+	background: url(../images/target.png) no-repeat 0 0;
+	padding-left: 22px;
 }
 
 .page .location-address {
-	padding-top: 25px;
+	padding-top: 10px;
 }
 
 .page .contact-options,
@@ -171,11 +185,13 @@ div p span a {
 .page .location-phone {
 	float: left;
 	width: 50%;
+	border-radius: 5px;
 }
 
 .page .location-map {
 	float: right;
 	width: 45%;
+	border-radius: 5px;
 }
 
 .page .location-phone,
@@ -187,7 +203,6 @@ div p span a {
 .page .location-image {
 	height: 100%;
 	width: 100%;
-	margin-bottom: 25px;
 }
 
 .page .row-margin {

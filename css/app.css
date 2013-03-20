@@ -221,8 +221,20 @@ div p span a {
 	border-radius: 6px;
 }
 
-.page .op-hours {
+.op-hours {
 	list-style: disk;
+}
+
+.op-hour-div {
+	display: none;
+}
+
+.parking-div {
+	display: none;
+}
+
+.page .public-transit-div {
+	display: none;
 }
 
 .page .expandable + div {

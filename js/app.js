@@ -1,6 +1,6 @@
 //Create an expandable unordered list with a click event 
 $(document).ready(function(){
-	$('.expandable').on('click', function(event){
+	$('.expandable1').on('click', function(event){
 		//alert('hello');
 		event.preventDefault();
 		$('.op-hour-div').toggle();
@@ -12,7 +12,7 @@ $(document).ready(function(){
 	});
 
 	//Create an expandable unordered list with a click event
-	$('.expandable').on('click', function(event){
+	$('.expandable2').on('click', function(event){
 		//alert('hello');
 		event.preventDefault();
 		$('.parking-div').toggle();
@@ -24,7 +24,7 @@ $(document).ready(function(){
 	});
 
 	//Create an expandable unordered list with a click event
-	$('.expandable').on('click', function(event){
+	$('.expandable3').on('click', function(event){
 		//alert('hello');
 		event.preventDefault();
 		$('.public-transit-div').toggle();

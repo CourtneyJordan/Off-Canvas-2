@@ -35,4 +35,3 @@ $(document).ready(function(){
 		$(this).find('li').slideToggle('slow');
 	});
 });
-

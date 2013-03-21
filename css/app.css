@@ -89,10 +89,13 @@ div p span a {
 }
 
 .connect-header {
-	border-bottom: solid 1px #9e9e9e;
 	color: #9e9e9e;
 	font-size: 1.2em;
 	margin: 15px 100px 0 15px;
+}
+
+.connect-with-us-div {
+	margin-top: 10px;
 }
 
 .connect-with-us {
@@ -105,32 +108,31 @@ div p span a {
 
 .connect-with-us a {
 	color: #FFF;
-	display: block;
 	font-size: 1.1em;
 }
 
 .facebook {
 	background: url(../images/facebook.png) no-repeat 0 0;
 	margin: 12px 0 0 12px;
-	padding: 0 0 10px 30px;
+	padding: 0 0 10px 32px;
 }
 
 .twitter {
 	background: url(../images/twitter.png) no-repeat 0 0;
 	margin: 12px 0 0 12px;
-	padding: 0 0 10px 30px;
+	padding: 0 0 10px 32px;
 }
 
 .youtube {
 	background: url(../images/youtube.png) no-repeat 0 0;
 	margin: 12px 0 0 12px;
-	padding: 0 0 10px 30px;
+	padding: 0 0 10px 32px;
 }
 
 .flickr {
 	background: url(../images/flickr.png) no-repeat 0 0;
 	margin: 12px 0 0 12px;
-	padding: 0 0 10px 30px;
+	padding: 0 0 10px 32px;
 }
 
 /* Page (Content Section) Styles */
@@ -144,6 +146,12 @@ div p span a {
 
 .page .center-text {
 	text-align: center;
+}
+
+.page .center-text.location-list{
+	background: #CCCCCC;
+	margin-bottom: 0;
+	line-height: 2.6;
 }
 
 .page .landing-search .search-textbox {
@@ -211,10 +219,14 @@ div p span a {
 
 .page .location-list p {
 	color: #222222;
+	font-size: 12px;
 }
 
 .page .location-list .miles {
 	float: right;
+	margin-top: -52px;
+	font-weight: bold;
+	color: #009900;
 }
 
 .page .roundCorners {
@@ -222,7 +234,7 @@ div p span a {
 }
 
 .op-hours {
-	list-style: disk;
+	list-style: none;
 }
 
 .op-hour-div {
@@ -241,8 +253,8 @@ div p span a {
 	padding: 5px 0 20px 20px;
 }
 
-.page .location-list-link {
-	
+.page .location-list li{
+	margin-top: 10px;
 }
 
 .page .primary {

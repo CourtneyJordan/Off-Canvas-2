@@ -239,10 +239,28 @@ div p span a {
 
 .expanded {
 	display: none;
+	
+}
+
+.page .expandable {
+	display: block;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E0E0E0), color-stop(40%,#D0D0D0), color-stop(100%,#CACACA));
+	padding-left:4px;
 }
 
 .page .expandable + div {
 	padding: 5px 0 20px 20px;
+	background-color: #e1e1e1;
+}
+
+.top-curve {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.bottom-curve {
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
 }
 
 .page .location-list li{

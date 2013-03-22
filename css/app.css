@@ -246,13 +246,34 @@ div p span a {
 
 .page .expandable {
 	display: block;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E0E0E0), color-stop(40%,#D0D0D0), color-stop(100%,#CACACA));
-	padding-left:4px;
+	overflow: auto;
+	padding: 10px 10px;
+	background: url(../images/right-arrow.png) no-repeat right center #e8e8e8; /* Old browsers */
+	background: url(../images/right-arrow.png) no-repeat 262px center, -moz-linear-gradient(top,  #e8e8e8 0%, #a5a5a5 100%); /* FF3.6+ */
+	background: url(../images/right-arrow.png) no-repeat 262px center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8e8e8), color-stop(100%,#a5a5a5)); /* Chrome,Safari4+ */
+	background: url(../images/right-arrow.png) no-repeat 262px center, -webkit-linear-gradient(top,  #e8e8e8 0%,#a5a5a5 100%); /* Chrome10+,Safari5.1+ */
+	background: url(../images/right-arrow.png) no-repeat 262px center, -o-linear-gradient(top,  #e8e8e8 0%,#a5a5a5 100%); /* Opera 11.10+ */
+	background: url(../images/right-arrow.png) no-repeat 262px center, -ms-linear-gradient(top,  #e8e8e8 0%,#a5a5a5 100%); /* IE10+ */
+	background: url(../images/right-arrow.png) no-repeat 262px center, linear-gradient(to bottom,  #e8e8e8 0%,#a5a5a5 100%); /* W3C */
+	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#a5a5a5',GradientType=0 ); /* IE6-9 */ 
+	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#a5a5a5',GradientType=0 ); /* IE6-9 */ 
+}
+
+.page .expandable:hover {
+		background: url(../images/right-hover-arrow.png) no-repeat right center #e8e8e8; /* Old browsers */
+	background: url(../images/right-hover-arrow.png) no-repeat 262px center, -moz-linear-gradient(top,  #e8e8e8 0%, #a5a5a5 100%); /* FF3.6+ */
+	background: url(../images/right-hover-arrow.png) no-repeat 262px center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8e8e8), color-stop(100%,#a5a5a5)); /* Chrome,Safari4+ */
+	background: url(../images/right-hover-arrow.png) no-repeat 262px center, -webkit-linear-gradient(top,  #e8e8e8 0%,#a5a5a5 100%); /* Chrome10+,Safari5.1+ */
+	background: url(../images/right-hover-arrow.png) no-repeat 262px center, -o-linear-gradient(top,  #e8e8e8 0%,#a5a5a5 100%); /* Opera 11.10+ */
+	background: url(../images/right-hover-arrow.png) no-repeat 262px center, -ms-linear-gradient(top,  #e8e8e8 0%,#a5a5a5 100%); /* IE10+ */
+	background: url(../images/right-hover-arrow.png) no-repeat 262px center, linear-gradient(to bottom,  #e8e8e8 0%,#a5a5a5 100%); /* W3C */
+	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#a5a5a5',GradientType=0 ); /* IE6-9 */ 
+	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#a5a5a5',GradientType=0 ); /* IE6-9 */ 
 }
 
 .page .expandable + div {
-	padding: 5px 0 20px 20px;
-	background-color: #e1e1e1;
+	padding: 12px 0 20px 4px;
+	background-color: #fff;
 }
 
 .top-curve {

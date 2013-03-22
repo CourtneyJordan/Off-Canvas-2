@@ -233,19 +233,11 @@ div p span a {
 	border-radius: 6px;
 }
 
-.op-hours {
+.remove-bullets {
 	list-style: none;
 }
 
-.op-hour-div {
-	display: none;
-}
-
-.parking-div {
-	display: none;
-}
-
-.page .public-transit-div {
+.expanded {
 	display: none;
 }
 

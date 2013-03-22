@@ -239,7 +239,9 @@ div p span a {
 
 .expanded {
 	display: none;
-	
+}
+.expanded  ul {
+	width: 90%;
 }
 
 .page .expandable {

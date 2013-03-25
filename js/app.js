@@ -41,9 +41,9 @@ $(document).ready(function(){
 	$('.expandable').on('click', function(event){
 		event.preventDefault();
 		if ($(this).siblings('div').toggle()){
-			$(this).show();
+			$(this).addClass('expanded').show();
 		}else{
-			$(this).hide();
+			$(this).removeClass('expanded').hide();
 		}
 	});
 });

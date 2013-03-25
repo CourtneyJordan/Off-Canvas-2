@@ -244,31 +244,38 @@ div p span a {
 	width: 90%;
 }
 
+.additional-info a:hover {
+	color: #222222;
+}
+
 .page .expandable {
 	display: block;
 	overflow: auto;
 	padding: 10px 10px;
-	background: url(../images/right-arrow.png) no-repeat right center #e8e8e8; /* Old browsers */
-	background: url(../images/right-arrow.png) no-repeat 262px center, -moz-linear-gradient(top,  #e8e8e8 0%, #a5a5a5 100%); /* FF3.6+ */
-	background: url(../images/right-arrow.png) no-repeat 262px center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8e8e8), color-stop(100%,#a5a5a5)); /* Chrome,Safari4+ */
-	background: url(../images/right-arrow.png) no-repeat 262px center, -webkit-linear-gradient(top,  #e8e8e8 0%,#a5a5a5 100%); /* Chrome10+,Safari5.1+ */
-	background: url(../images/right-arrow.png) no-repeat 262px center, -o-linear-gradient(top,  #e8e8e8 0%,#a5a5a5 100%); /* Opera 11.10+ */
-	background: url(../images/right-arrow.png) no-repeat 262px center, -ms-linear-gradient(top,  #e8e8e8 0%,#a5a5a5 100%); /* IE10+ */
-	background: url(../images/right-arrow.png) no-repeat 262px center, linear-gradient(to bottom,  #e8e8e8 0%,#a5a5a5 100%); /* W3C */
-	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#a5a5a5',GradientType=0 ); /* IE6-9 */ 
-	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#a5a5a5',GradientType=0 ); /* IE6-9 */ 
+	background: url(../images/down-arrow.png) no-repeat right center #e8e8e8; /* Old browsers */
+	background: url(../images/down-arrow.png) no-repeat 262px center, -moz-linear-gradient(top,  #e8e8e8 0%, #cecece 60%); /* FF3.6+ */
+	background: url(../images/down-arrow.png) no-repeat 262px center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8e8e8), color-stop(60%,#cecece)); /* Chrome,Safari4+ */
+	background: url(../images/down-arrow.png) no-repeat 262px center, -webkit-linear-gradient(top,  #e8e8e8 0%,#cecece 60%); /* Chrome10+,Safari5.1+ */
+	background: url(../images/down-arrow.png) no-repeat 262px center, -o-linear-gradient(top,  #e8e8e8 0%,#cecece 60%); /* Opera 11.10+ */
+	background: url(../images/down-arrow.png) no-repeat 262px center, -ms-linear-gradient(top,  #e8e8e8 0%,#cecece 60%); /* IE10+ */
+	background: url(../images/down-arrow.png) no-repeat 262px center, linear-gradient(to bottom,  #e8e8e8 0%,#cecece 60%); /* W3C */
+	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#cecece',GradientType=0 ); /* IE6-9 */ 
+	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#cecece',GradientType=0 ); /* IE6-9 */ 
 }
 
-.page .expandable:hover {
-		background: url(../images/right-hover-arrow.png) no-repeat right center #e8e8e8; /* Old browsers */
-	background: url(../images/right-hover-arrow.png) no-repeat 262px center, -moz-linear-gradient(top,  #e8e8e8 0%, #a5a5a5 100%); /* FF3.6+ */
-	background: url(../images/right-hover-arrow.png) no-repeat 262px center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8e8e8), color-stop(100%,#a5a5a5)); /* Chrome,Safari4+ */
-	background: url(../images/right-hover-arrow.png) no-repeat 262px center, -webkit-linear-gradient(top,  #e8e8e8 0%,#a5a5a5 100%); /* Chrome10+,Safari5.1+ */
-	background: url(../images/right-hover-arrow.png) no-repeat 262px center, -o-linear-gradient(top,  #e8e8e8 0%,#a5a5a5 100%); /* Opera 11.10+ */
-	background: url(../images/right-hover-arrow.png) no-repeat 262px center, -ms-linear-gradient(top,  #e8e8e8 0%,#a5a5a5 100%); /* IE10+ */
-	background: url(../images/right-hover-arrow.png) no-repeat 262px center, linear-gradient(to bottom,  #e8e8e8 0%,#a5a5a5 100%); /* W3C */
-	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#a5a5a5',GradientType=0 ); /* IE6-9 */ 
-	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#a5a5a5',GradientType=0 ); /* IE6-9 */ 
+.page .expandable.expanded:active{
+	display: block;
+	overflow: auto;
+	padding: 10px 10px;
+	background: url(../images/down-arrow.png) no-repeat right center #e8e8e8; /* Old browsers */
+	background: url(../images/down-arrow.png) no-repeat 262px center, -moz-linear-gradient(top,  #e8e8e8 0%, #cecece 60%); /* FF3.6+ */
+	background: url(../images/down-arrow.png) no-repeat 262px center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8e8e8), color-stop(60%,#cecece)); /* Chrome,Safari4+ */
+	background: url(../images/down-arrow.png) no-repeat 262px center, -webkit-linear-gradient(top,  #e8e8e8 0%,#cecece 60%); /* Chrome10+,Safari5.1+ */
+	background: url(../images/down-arrow.png) no-repeat 262px center, -o-linear-gradient(top,  #e8e8e8 0%,#cecece 60%); /* Opera 11.10+ */
+	background: url(../images/down-arrow.png) no-repeat 262px center, -ms-linear-gradient(top,  #e8e8e8 0%,#cecece 60%); /* IE10+ */
+	background: url(../images/down-arrow.png) no-repeat 262px center, linear-gradient(to bottom,  #e8e8e8 0%,#cecece 60%); /* W3C */
+	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#cecece',GradientType=0 ); /* IE6-9 */ 
+	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#cecece',GradientType=0 ); /* IE6-9 */ 
 }
 
 .page .expandable + div {

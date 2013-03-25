@@ -43,7 +43,7 @@ $(document).ready(function(){
 		if ($(this).siblings('div').toggle()){
 			$(this).addClass('expanded').show();
 		}else{
-			$(this).removeClass('expanded').hide();
+			$(this).removeClass('expanded').hide();			
 		}
 	});
 });

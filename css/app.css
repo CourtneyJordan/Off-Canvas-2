@@ -264,9 +264,6 @@ div p span a {
 }
 
 .page .expandable.expanded{
-	display: block;
-	overflow: auto;
-	padding: 10px 10px;
 	background: url(../images/up-arrow.png) no-repeat right center #e8e8e8; /* Old browsers */
 	background: url(../images/up-arrow.png) no-repeat 262px center, -moz-linear-gradient(top,  #e8e8e8 0%, #cecece 60%); /* FF3.6+ */
 	background: url(../images/up-arrow.png) no-repeat 262px center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8e8e8), color-stop(60%,#cecece)); /* Chrome,Safari4+ */
@@ -279,8 +276,13 @@ div p span a {
 }
 
 .page .expandable + div {
+	display: none;
 	padding: 12px 0 20px 4px;
 	background-color: #fff;
+}
+
+.page  .expandable.expanded + div{
+	display: block;
 }
 
 .top-curve {

@@ -299,6 +299,7 @@ div p span a {
 
 .page .location-list li{
 	margin-top: 10px;
+	border-bottom: 1px solid #222;
 }
 
 .page .primary {

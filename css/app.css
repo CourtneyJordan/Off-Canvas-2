@@ -137,7 +137,7 @@ div p span a {
 
 /* Page (Content Section) Styles */
 .page {
-	background: url(../images/furley.png) repeat fixed 0 0 #FFF;
+	background: url(../images/furley.png) repeat 0 0 #FFF;
 }
 
 .page .logo {

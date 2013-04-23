@@ -29,10 +29,6 @@ div p span a {
 	margin: 9px 0 0 5px;
 }
 
-.lt-ie9 h1 {
-	background: #000 !important;
-}
-
 .site .nys-icon {
 	float: right;
 	padding-right: 5px;
@@ -267,7 +263,7 @@ div p span a {
 	display: block;
 	overflow: auto;
 	padding: 10px 10px;
-	border: 1px solid #ccc;
+	border: 1px solid #CCC;
 	background: url(../images/down-arrow.png) no-repeat 94% center #E1E1E1; 
 }
 
@@ -300,9 +296,9 @@ div p span a {
 	border-bottom-right-radius: 8px;
 }
 
-.page .location-list li{
+.page .location-list li {
 	margin-top: 10px;
-	border-bottom: 1px solid #C3C3C3;
+	border-bottom: 1px solid #CCC;
 }
 
 .page .primary {
@@ -318,29 +314,58 @@ div p span a {
 /* Medium Displays: 768px - 1279px */
 @media only screen and (min-width: 48em) {
 
+	.main-nav {
+		position: relative;
+		margin-top: 44px;
+	}
+
+	.main-nav .main-nav-controls {
+		display: none;
+	}
+
+	.main-nav .nav-wrap {
+		height: 42px;
+		padding: 0;
+		overflow: hidden;
+	}
+
+	.main-nav .main-nav-contents a {
+		display: inline-block;
+		font-size: 1em;
+		padding: 10px;
+		margin-top: 2px;
+	}
+
+	.main-nav .connect-with-us-div {
+		display: none;
+	}
+
+	.page .landing-search {
+		margin-top: 2.3em;
+	}
+
 	.page .landing-search .search-button {
 		background: #336699 !important;
 		font-weight: bold;
+	}
+
+	.page .location-controls a {
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.page .landing-search {
+		margin-top: 44px;
+	}
+
+	.page .gps-icon {
+		display:none;
 	}
 
 }
 
 /* Large Displays: 1280px - 1440px */
 @media only screen and (min-width: 80em) {
-
-	.page .landing-search .search-textbox {
-		width: 25%;
-	}
-
-	.page .landing-search .search-button {
-		width: 25%;
-		margin: 25px 364px;
-	}
-
-}
-
-/* X-Large Displays: 1400px and up */
-@media only screen and (min-width: 90em) {
 
 
 }	

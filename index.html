@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html class="no-js fixed-header">
+	<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7 no-js fixed-header" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><![endif]-->
+	<!--[if IE 7]><html class="lt-ie9 lt-ie8 no-js fixed-header" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><![endif]-->
+	<!--[if IE 8]><html class="lt-ie9 no-js fixed-header" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><![endif]-->
+	<!--[if gt IE 8]><!--><html class="no-js fixed-header" xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]-->
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/foundation.css" />
+		<link rel="stylesheet" href="css/foundation-grid-ie8.css" />
 		<link rel="stylesheet" href="css/off-canvas.css" />
 		<link rel="stylesheet" href="css/app.css">
 
@@ -60,7 +64,7 @@
 					<div class="small-12 columns centered">
 						<form class="landing-search" action="location.html">
 							<input type="text" name="search" id="search" class="search-textbox" placeholder="Enter Zip Code" />
-							<input type="submit" class="search-button primary roundCorners" value="Find My NYS Career Center" />
+							<input type="submit" name="submit" class="search-button primary roundCorners" value="Find My NYS Career Center" />
 						</form>
 					</div>
 				</div>
@@ -76,6 +80,6 @@
 			</div>
 		</div>
 	</body>
-	<script src="js/zepto.js"></script>
+	<script src="js/jquery.js"></script>
 	<script src="js/off-canvas.js"></script>
 </html>

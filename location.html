@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html class="no-js fixed-header">
+	<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7 no-js fixed-header" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><![endif]-->
+	<!--[if IE 7]><html class="lt-ie9 lt-ie8 no-js fixed-header" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><![endif]-->
+	<!--[if IE 8]><html class="lt-ie9 no-js fixed-header" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><![endif]-->
+	<!--[if gt IE 8]><!--><html class="no-js fixed-header" xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]-->
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/foundation.css" />
+		<link rel="stylesheet" href="css/foundation-grid-ie8.css" />
 		<link rel="stylesheet" href="css/off-canvas.css" />
 		<link rel="stylesheet" href="css/app.css">
 
@@ -96,7 +100,7 @@
 								</div>
 							</li>
 							<li>
-								<a href="#two" class="expandable">Parking Restrictions</a>
+								<a href="#two" class="expandable no-top-border">Parking Restrictions</a>
 								<div>
 									<ul class="remove-bullets">
 										<li>
@@ -106,7 +110,7 @@
 								</div>
 							</li>
 							<li>
-								<a href="#three" class="expandable">Public Transit Access</a>
+								<a href="#three" class="expandable no-top-border bottom-curve">Public Transit Access</a>
 								<div class="bottom-curve">
 									<ul class="remove-bullets">
 										<li>
@@ -128,7 +132,7 @@
 			</div>
 		</div>
 	</body>
-	<script src="js/zepto.js"></script>
+	<script src="js/jquery.js"></script>
 	<script src="js/off-canvas.js"></script>
 	<script src="js/app.js"></script>
 </html>

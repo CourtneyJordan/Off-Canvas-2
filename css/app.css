@@ -376,7 +376,7 @@ div p span a {
 		display: inline-block !important;
 	}
 
-	.page .location-list {
+	.page .location-list-view {
 		display: none;
 	}
 
@@ -403,6 +403,8 @@ div p span a {
 		border-right: none;
 		border-bottom: none;
 	}
+
+	/* Location-List Page Styles */
 
 }
 

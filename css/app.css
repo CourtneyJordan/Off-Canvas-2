@@ -141,8 +141,13 @@ div p span a {
 	background: url(../images/furley.png) repeat 0 0 #FFF;
 }
 
-.page .logo {
+.page .logo-sm {
 	margin: 25px auto;
+}
+
+.page .logo-lg {
+	margin: 50px auto;
+	display:none;
 }
 
 .page .center-text {
@@ -194,18 +199,24 @@ div p span a {
 
 .page .location-phone {
 	float: left;
-	width: 50%;
+	width: 100%;
 	border-radius: 5px;
 }
 
 .page .location-map {
 	float: right;
-	width: 45%;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.page .location-other {
+	width: 100%;
 	border-radius: 5px;
 }
 
 .page .location-phone,
-.page .location-map {
+.page .location-map,
+.page .location-other {
 	display: inline-block;
 	padding: 7px 10px;
 }
@@ -314,51 +325,47 @@ div p span a {
 /* Medium Displays: 768px - 1279px */
 @media only screen and (min-width: 48em) {
 
-	.main-nav {
-		position: relative;
-		margin-top: 44px;
+	/* Index Page Styles */
+
+	.page .logo-sm {
+		margin: 25px auto;
+		display:none;
 	}
 
-	.main-nav .main-nav-controls {
-		display: none;
-	}
-
-	.main-nav .nav-wrap {
-		height: 42px;
-		padding: 0;
-		overflow: hidden;
-	}
-
-	.main-nav .main-nav-contents a {
-		display: inline-block;
-		font-size: 1em;
-		padding: 10px;
-		margin-top: 2px;
-	}
-
-	.main-nav .connect-with-us-div {
-		display: none;
+	.page .logo-lg {
+		margin: 50px auto;
+		display: block;
 	}
 
 	.page .landing-search {
-		margin-top: 2.3em;
-	}
-
-	.page .landing-search .search-button {
-		background: #336699 !important;
-		font-weight: bold;
-	}
-
-	.page .location-controls a {
-		width: 100%;
-		margin: 10px 0;
-	}
-
-	.page .landing-search {
-		margin-top: 44px;
+		margin-top: 200px;
+		width: 80%;
 	}
 
 	.page .gps-icon {
+		display:none;
+	}
+
+	.page .location-image {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: auto;
+		height: auto;
+	}
+
+	.page .location-address {
+		margin-top: 50px;
+	}
+
+	.page .location-map {
+		margin-top: 10px;
+	}
+
+	.page .location-other {
+		margin-top: 10px;
+	}
+
+	.page .location-list {
 		display:none;
 	}
 

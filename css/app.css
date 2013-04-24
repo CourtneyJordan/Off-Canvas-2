@@ -213,6 +213,7 @@ div p span a {
 	background: #CCC;
 	line-height: 1.9;
 	margin-bottom: 0;
+	display: none;
 }
 
 .page .location-phone,
@@ -431,9 +432,7 @@ div p span a {
 	}
 
 	.page .gps-icon {
-		float: right;
-		margin-right: 146px;
-		margin-top: -70px;
+		margin-right: 80px;
 		font-weight: bold;
 		font-size: 1.2em;
 		background: url(../images/target.png) no-repeat 0px 7px;
@@ -480,7 +479,8 @@ div p span a {
 
 	.page .location-other {
 		margin-top: 10px;
-		display: inline-block !important;
+		/*display: inline-block !important;*/
+		display: none;
 	}
 
 	.page .location-list-view {

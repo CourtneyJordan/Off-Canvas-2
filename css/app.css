@@ -320,6 +320,33 @@ div p span a {
 /* Medium Displays: 768px - 1279px */
 @media only screen and (min-width: 48em) {
 
+	/* Main Nav Styles */
+	.main-nav {
+		position: relative;
+	}
+
+	.main-nav .nav-wrap {
+		overflow-y: hidden;
+		padding-top: 43px;
+	}
+
+	.main-nav .main-nav-controls {
+		display: none;
+	}
+
+	.connect-with-us-div {
+		display: none;
+	}
+
+	.main-nav .main-nav-contents a {
+		display: inline-block;
+		padding: 10px;
+		background: 0;
+		border-top: 0;
+		border-bottom: 0;
+	}
+
+
 	/* Index Page Styles */
 
 	.page .logo-sm {
@@ -339,6 +366,15 @@ div p span a {
 
 	.page .gps-icon {
 		display:none;
+	}
+
+	.page .landing-search .search-button {
+		font-size: 1.3em;
+	}	
+
+	.page .landing-search .search-textbox {
+		font-size: 1.3em;
+		background: url(../images/magnifying-glass.png) no-repeat 97% 14px #FFF;
 	}
 
 	/* Location Page Styles */
@@ -402,6 +438,10 @@ div p span a {
 		border-left: none;
 		border-right: none;
 		border-bottom: none;
+	}
+
+	.page .center-text {
+		font-size: 1.1em;
 	}
 
 	/* Location-List Page Styles */

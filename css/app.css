@@ -136,6 +136,10 @@ div p span a {
 	padding: 0 0 10px 32px;
 }
 
+.footer {
+	display: none;
+}
+
 /* Page (Content Section) Styles */
 .page {
 	background: url(../images/furley.png) repeat 0 0 #FFF;
@@ -326,6 +330,58 @@ div p span a {
 /* Medium Displays: 768px - 1279px */
 @media only screen and (min-width: 48em) {
 
+	body {
+		overflow-y: hidden;
+	}
+
+	.page {
+		padding-top: 90px;
+	}
+
+	.content {
+		margin-bottom: 20px;
+	}
+
+	.footer {
+		display: block;
+		width: 100%;
+		margin-top: 90px;
+		color: #5A5A5A;
+		text-align: center;
+	}
+
+	.footer div p {
+		margin-bottom: 10px;
+		font-size: 2em;
+		font-weight: 
+	}
+
+	.row.footer {
+		border-top: 2px solid #DDD;
+	}
+
+	.connect-with-us-footer {
+		margin: 0;
+		padding-left: 10px;
+	}
+
+	.facebook {
+		padding: 0 40px 12px 0;
+		margin: 0;
+	}
+
+	.twitter {
+		padding: 0 40px 12px 0;
+	}
+
+	.youtube {
+		padding: 0 40px 12px 0;
+	}
+
+	.flickr {
+		padding: 0 40px 12px 0;
+	}
+
 	/* Main Nav Styles */
 	.main-nav {
 		position: relative;
@@ -342,6 +398,10 @@ div p span a {
 
 	.connect-with-us-div {
 		display: none;
+	}
+
+	.connect-with-us-footer {
+		display:block;
 	}
 
 	.main-nav .main-nav-contents a {
@@ -371,7 +431,12 @@ div p span a {
 	}
 
 	.page .gps-icon {
-		display:none;
+		float: right;
+		margin-right: 146px;
+		margin-top: -70px;
+		font-weight: bold;
+		font-size: 1.2em;
+		background: url(../images/target.png) no-repeat 0px 7px;
 	}
 
 	.page .landing-search .search-button {
@@ -450,12 +515,40 @@ div p span a {
 		font-size: 1.1em;
 	}
 
+	.footer-icons .facebook {
+	background: url(../images/facebook.png) no-repeat 0 0;
+	margin: 12px 0 0 12px;
+	padding: 0 0 10px 32px;
+	display: block;
+	}
+
+	.footer-icons .twitter {
+		background: url(../images/twitter.png) no-repeat 0 0;
+		margin: 12px 0 0 12px;
+		padding: 0 0 10px 32px;
+	}
+
+	.footer-icons .youtube {
+		background: url(../images/youtube.png) no-repeat 0 0;
+		margin: 12px 0 0 12px;
+		padding: 0 0 10px 32px;
+	}
+
+	.footer-icons .flickr {
+		background: url(../images/flickr.png) no-repeat 0 0;
+		margin: 12px 0 0 12px;
+		padding: 0 0 10px 32px;
+	}
+
 	/* Location-List Page Styles */
 
 }
 
 /* Large Displays: 1280px - 1440px */
 @media only screen and (min-width: 80em) {
-
+	
+	.page .gps-icon {
+		display:none;
+	}
 
 }	

@@ -205,9 +205,10 @@ div p span a {
 	display: none !important;
 }
 
-.location-list-view {
+.page .location-list-view {
 	background: #CCC;
 	line-height: 1.9;
+	margin-bottom: 0;
 }
 
 .page .location-phone,

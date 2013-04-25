@@ -335,6 +335,9 @@ div p span a {
 	body {
 		
 	}
+	.page {
+		height: 100%;
+	}
 	/* Global Navigation */
 	.open-menu {
 		display:none;
@@ -346,6 +349,7 @@ div p span a {
 
 	.content {
 		margin-bottom: 20px;
+		height: 100%;
 	}
 
 	.footer {
@@ -363,10 +367,9 @@ div p span a {
 
 	.row.footer {
 		border-top: 6px ridge #BBB;
-		border-bottom: 4px solid #969696;
 		background: #222;
 		margin: 0;
-		height: 126px;
+		height: 100%;
 		max-width: none;
 		width: 100%;
 	}
@@ -476,7 +479,6 @@ div p span a {
 	}
 
 	.main {
-		margin-top: -14px;
 		margin-bottom: -12px;
 	}
 

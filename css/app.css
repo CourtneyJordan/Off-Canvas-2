@@ -142,7 +142,7 @@ div p span a {
 
 /* Page (Content Section) Styles */
 .page {
-	background: url(../images/furley.png) repeat 0 0 #FFF;
+	background: url(../images/furley.png) repeat 0 0 #222;
 }
 
 .page .logo-sm {
@@ -343,10 +343,6 @@ div p span a {
 		margin: 9px 0 0 9px;
 	}
 
-	.page {
-		padding-top: 90px;
-	}
-
 	.content {
 		margin-bottom: 20px;
 	}
@@ -368,7 +364,7 @@ div p span a {
 		border-top: 6px ridge #BBB;
 		background: #222;
 		margin: 0;
-		height: 320px;
+		height: 1000px;
 		max-width: none;
 		width: 100%;
 	}
@@ -421,6 +417,10 @@ div p span a {
 
 	.main-nav .main-nav-controls {
 		display: none;
+	}
+
+	.main-nav .main-nav-contents a {
+		font-size: 1em;
 	}
 
 	.connect-with-us-div {
@@ -485,11 +485,17 @@ div p span a {
 	.page .location-address {
 		margin-top: 10px;
 		padding-top: 10px;
-		font-size: 130%;
+		font-size: 110%;
+	}
+
+	.page .location-address strong{
+		margin-top: 10px;
+		padding-top: 10px;
+		font-size: 140%;
 	}
 
 	.page .contact-options {
-		font-size: 110%;
+		font-size: 100%;
 	}
 
 	.page .location-phone,
@@ -521,6 +527,8 @@ div p span a {
 		background: none; 
 		font-weight: bold;
 		margin-top: -7px;
+		font-size: 120%;
+		color: #3C3C3C !important;
 	}
 
 	.page .expandable.expanded {

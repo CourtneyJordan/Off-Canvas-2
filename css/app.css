@@ -142,7 +142,8 @@ div p span a {
 
 /* Page (Content Section) Styles */
 .page {
-	background: url(../images/furley.png) repeat 0 0 #222;
+	background: url(../images/furley.png) repeat 0 0 #FFF;
+	padding-top: 0;
 }
 
 .page .logo-sm {
@@ -362,6 +363,7 @@ div p span a {
 
 	.row.footer {
 		border-top: 6px ridge #BBB;
+		border-bottom: 4px solid #969696;
 		background: #222;
 		margin: 0;
 		height: 126px;

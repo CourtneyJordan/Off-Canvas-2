@@ -334,6 +334,14 @@ div p span a {
 	body {
 		overflow-y: hidden;
 	}
+	/* Global Navigation */
+	.open-menu {
+		display:none;
+	}
+	
+	.site h1 {
+		margin: 9px 0 0 9px;
+	}
 
 	.page {
 		padding-top: 90px;
@@ -347,8 +355,7 @@ div p span a {
 		display: block;
 		width: 100%;
 		margin-top: 90px;
-		color: #5A5A5A;
-		text-align: center;
+		color: #FFF;
 	}
 
 	.footer div p {
@@ -358,7 +365,12 @@ div p span a {
 	}
 
 	.row.footer {
-		border-top: 2px solid #DDD;
+		border-top: 6px ridge #BBB;
+		background: #222;
+		margin: 0;
+		height: 320px;
+		max-width: none;
+		width: 100%;
 	}
 
 	.connect-with-us-footer {
@@ -367,20 +379,34 @@ div p span a {
 	}
 
 	.facebook {
+		-webkit-filter: grayscale(100%);
+		-moz-filter: grayscale(100%);
+		-ms-filter: grayscale(100%);
+		-o-filter: grayscale(100%);
+		filter: gray;
+		-webkit-filter: grayscale(1);
 		padding: 0 40px 12px 0;
 		margin: 0;
 	}
 
-	.twitter {
+	.twitter,
+	.youtube,
+	.flickr	{
+		-webkit-filter: grayscale(100%);
+		-moz-filter: grayscale(100%);
+		-ms-filter: grayscale(100%);
+		-o-filter: grayscale(100%);
+		filter: gray;
+		-webkit-filter: grayscale(1);
 		padding: 0 40px 12px 0;
 	}
-
-	.youtube {
-		padding: 0 40px 12px 0;
-	}
-
-	.flickr {
-		padding: 0 40px 12px 0;
+	
+	.facebook:hover,
+	.twitter:hover,
+	.youtube:hover,
+	.flickr:hover{
+		filter: none;
+		-webkit-filter: none;
 	}
 
 	/* Main Nav Styles */
@@ -435,7 +461,7 @@ div p span a {
 		margin-right: 80px;
 		font-weight: bold;
 		font-size: 1.2em;
-		background: url(../images/target.png) no-repeat 0px 7px;
+		background: url(../images/target.png) no-repeat 0px 2px;
 	}
 
 	.page .landing-search .search-button {
@@ -516,10 +542,10 @@ div p span a {
 	}
 
 	.footer-icons .facebook {
-	background: url(../images/facebook.png) no-repeat 0 0;
-	margin: 12px 0 0 12px;
-	padding: 0 0 10px 32px;
-	display: block;
+		background: url(../images/facebook.png) no-repeat 0 0;
+		margin: 12px 0 0 12px;
+		padding: 0 0 10px 32px;
+		display: block;
 	}
 
 	.footer-icons .twitter {
@@ -547,8 +573,5 @@ div p span a {
 /* Large Displays: 1280px - 1440px */
 @media only screen and (min-width: 80em) {
 	
-	.page .gps-icon {
-		display:none;
-	}
 
 }	

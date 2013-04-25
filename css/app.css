@@ -475,6 +475,10 @@ div p span a {
 		background: url(../images/magnifying-glass.png) no-repeat 97% 14px #FFF;
 	}
 
+	.main{
+		margin-bottom: -12px;
+	}
+
 	/* Location Page Styles */
 
 	.page .location-image {

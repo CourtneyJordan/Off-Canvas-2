@@ -334,10 +334,11 @@ div p span a {
 @media only screen and (min-width: 48em) {
 
 	body {
-		
+		background: #222;
 	}
 	.page {
-		height: 100%;
+		width: 100% !important;
+		position: relative;;
 	}
 	/* Global Navigation */
 	.open-menu {
@@ -370,7 +371,6 @@ div p span a {
 		border-top: 6px ridge #BBB;
 		background: #222;
 		margin: 0;
-		height: 100%;
 		max-width: none;
 		width: 100%;
 	}

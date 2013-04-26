@@ -330,6 +330,18 @@ div p span a {
 	background: #336699;
 }
 
+.page .link-icon {
+	background: url(../images/link-icon.png) no-repeat 2px 5px; 
+}
+
+.page .contact-options li a {
+	margin-left: 22px;
+}
+
+.page .email-icon {
+	background: url(../images/icon-button-sprite.png) no-repeat 2px -4154px; 
+}
+
 /* Medium Displays: 768px - 1279px */
 @media only screen and (min-width: 48em) {
 
@@ -338,7 +350,16 @@ div p span a {
 	}
 	.page {
 		width: 100% !important;
-		position: relative;;
+		position: relative;
+	}
+
+	.page a {
+		color: #336699;
+	}
+
+	.page a:hover {
+		color: #969696;
+		text-decoration: underline;
 	}
 	/* Global Navigation */
 	.open-menu {

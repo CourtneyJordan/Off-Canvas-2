@@ -209,13 +209,19 @@ div p span a {
 
 .page .location-other {
 	display: none !important;
+	padding: 20px;
 }
 
 .page .location-list-view {
-	background: #CCC;
+	background: #CFCFC4;
+	font-weight: bold;
 	line-height: 1.9;
 	margin-bottom: 0;
-	display: none;
+	display: block;
+}
+
+.page .location-list-view a {
+	color: #336699;
 }
 
 .page .location-phone,
@@ -320,14 +326,24 @@ div p span a {
 	border-bottom: 1px solid #CCC;
 }
 
-.page .primary {
+.page .button-primary {
 	color: #fff !important;
 	background: #336699;
 	font-weight: bold;
 }
 
-.page .primary:active {
+.page .button-primary:active {
 	background: #336699;
+}
+
+.page .button {
+	color: #336699 !important;
+	background: #CFCFC4;
+	border-color: #CCC;
+	font-weight: bold;
+	border-style: none;
+	border-width: 0;
+	line-height: 0;
 }
 
 .page .link-icon {
@@ -342,14 +358,23 @@ div p span a {
 	background: url(../images/icon-button-sprite.png) no-repeat 2px -4154px; 
 }
 
+@media only screen and (min-width: 20em) {
+
+	.page .location-image {
+		margin: 0 auto;
+		margin-top: 64px;
+		width: 70%;
+	}
+
+}
+
 /* Medium Displays: 768px - 1279px */
 @media only screen and (min-width: 48em) {
-
-	body {
+	body{
 		background: #222;
 	}
+
 	.page {
-		width: 100% !important;
 		position: relative;
 	}
 
@@ -360,6 +385,13 @@ div p span a {
 	.page a:hover {
 		color: #969696;
 		text-decoration: underline;
+	}
+
+	.page .additional-info a:hover {
+		color: #969696;
+		text-decoration: none;
+		cursor: default;
+
 	}
 	/* Global Navigation */
 	.open-menu {
@@ -394,11 +426,11 @@ div p span a {
 		margin: 0;
 		max-width: none;
 		width: 100%;
+		padding-top: 16px;
 	}
 
 	.connect-with-us-footer {
 		margin: 0;
-		padding-left: 10px;
 	}
 
 	.facebook {
@@ -542,8 +574,8 @@ div p span a {
 
 	.page .location-other {
 		margin-top: 10px;
-		/*display: inline-block !important;*/
-		display: none;
+		display: inline-block !important;
+		padding: 20px;
 	}
 
 	.page .location-list-view {
@@ -603,6 +635,35 @@ div p span a {
 		background: url(../images/flickr.png) no-repeat 0 0;
 		margin: 12px 0 0 12px;
 		padding: 0 0 10px 32px;
+	}
+
+	.nav-wrap {
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60em !important;
+	}
+
+	.gov-wrap {
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60em !important;
+	}
+
+	.arrow-down {
+		width: 0; 
+		height: 0; 
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-bottom: 5px solid black;
+	}
+
+	.footer-wrap {
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60em !important;
 	}
 
 	/* Location-List Page Styles */

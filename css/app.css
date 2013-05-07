@@ -358,7 +358,7 @@ div p span a {
 	background: url(../images/icon-button-sprite.png) no-repeat 2px -4154px; 
 }
 
-@media only screen and (min-width: 20em) {
+@media only screen and (min-width: 30em) {
 
 	.page .location-image {
 		margin: 0 auto;

@@ -365,7 +365,14 @@ div p span a {
 		width: 70%;
 	}
 
-}
+
+	.contact-options {
+		float: right;
+		margin: 0 auto;
+		margin-top: -74px;
+	}
+
+}	
 
 /* Medium Displays: 768px - 1279px */
 @media only screen and (min-width: 48em) {
@@ -558,6 +565,8 @@ div p span a {
 
 	.page .contact-options {
 		font-size: 100%;
+		float: none;
+		margin-top: 20px;
 	}
 
 	.page .location-phone,

@@ -375,6 +375,16 @@ div p span a {
 
 }	
 
+@media only screen and (min-width: 30em) {
+
+	.page .landing-search .search-textbox,
+	.page .landing-search .search-button {
+		width: 50%;
+		display: block;
+	}
+
+}	
+
 /* Medium Displays: 768px - 1279px */
 @media only screen and (min-width: 48em) {
 	body{
@@ -523,15 +533,14 @@ div p span a {
 		width: 80%;
 	}
 
-	.page .gps-icon {
-		margin-right: 80px;
-		font-weight: bold;
-		font-size: 1.2em;
-		background: url(../images/target.png) no-repeat 0px 2px;
+	.page .landing-search .search-textbox {
+		width: 100%;
 	}
 
 	.page .landing-search .search-button {
 		font-size: 1.3em;
+		display: inline-block;
+		width: 100%;
 	}	
 
 	.page .landing-search .search-textbox {

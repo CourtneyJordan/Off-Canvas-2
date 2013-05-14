@@ -166,6 +166,21 @@ div p span a {
 	line-height: 2.6;
 }
 
+.page .location-list {
+	margin-top: 54px;
+}
+
+.page .location-list img {
+	float: left; 
+	margin-right: 14px; 
+	margin-top: 2px; 
+	border-radius: 34px;
+}
+
+.page .location-list p {
+	margin-top: 1.6em;
+}
+
 .page .landing-search .search-textbox {
 	width: 100%;
 	margin: auto;
@@ -181,11 +196,6 @@ div p span a {
 	border: none;
 	border-radius: 5px;
 	font-size: 16px;
-}
-
-.page .gps-icon {
-	background: url(../images/target.png) no-repeat 0 0;
-	padding-left: 22px;
 }
 
 .page .location-address {
@@ -288,11 +298,11 @@ div p span a {
 	overflow: auto;
 	padding: 10px 10px;
 	border: 1px solid #CCC;
-	background: url(../images/down-arrow.png) no-repeat 94% center #E1E1E1; 
+	background: url(../images/down-arrow.png) no-repeat right center #E1E1E1; 
 }
 
 .page .expandable.expanded {
-	background: url(../images/up-arrow.png) no-repeat 94% center #E1E1E1; 
+	background: url(../images/up-arrow.png) no-repeat right center #E1E1E1; 
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius: 0;
 }
@@ -357,6 +367,14 @@ div p span a {
 	background: url(../images/icon-button-sprite.png) no-repeat 2px -4154px; 
 }
 
+.large-email {
+	display: none;
+}
+
+.small-email {
+	display: block;
+}
+
 @media only screen and (min-width: 30em) {
 
 	.page .location-image {
@@ -364,18 +382,6 @@ div p span a {
 		margin-top: 64px;
 		width: 70%;
 	}
-
-
-	.contact-options {
-		float: right;
-		margin: 0 auto;
-		margin-top: -74px;
-		margin-right: 6px;
-	}
-
-}	
-
-@media only screen and (min-width: 30em) {
 
 	.page .landing-search .search-textbox,
 	.page .landing-search .search-button {
@@ -685,6 +691,18 @@ div p span a {
 	}
 
 	/* Location-List Page Styles */
+
+	.page .location-list {
+		margin-top: auto;
+	}
+
+	.large-email {
+		display: block;
+	}
+
+	.small-email {
+		display: none;
+	}
 
 }
 

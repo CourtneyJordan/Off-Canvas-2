@@ -405,8 +405,9 @@ div p span a {
 
 /* Medium Displays: 768px - 1279px */
 @media only screen and (min-width: 48em) {
-	body{
+	body {
 		background: #222;
+		overflow: hidden;
 	}
 
 	.page {
@@ -568,9 +569,9 @@ div p span a {
 	}
 
 	.page .gps-icon {
-		margin-right: 80px;
+		margin-right: 4em;
 		font-weight: bold;
-		font-size: 1.2em;
+		font-size: 1.0em;
 		background: url(../images/target.png) no-repeat 0px 2px;
 	}	
 

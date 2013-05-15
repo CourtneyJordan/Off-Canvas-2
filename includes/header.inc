@@ -37,7 +37,7 @@
 					</form>
 				</div>
 				<div class="main-nav-contents">
-					<a href="index.html">Find Career Center</a>
+					<a href="index.html">Find a Career Center</a>
 					<a href="#">Job Seeker Assistance</a>
 					<a href="http://jobzone.ny.gov/" target="_blank">JobZone</a>
 					<a href="http://careerzone.ny.gov/" target="_blank">CareerZone</a>
@@ -53,40 +53,4 @@
 				</div>
 			</div>
 		</div>
-		<div class="page" id="page">
-			<div class="content">
-				<div class="row main">
-					<div class="small-12 large-6 columns centered">
-						<img src="images/400x400.png" class="logo-lg">
-						<img src="images/320x140.png" class="logo-sm">
-					</div>
-					<div class="small-12 large-6 columns centered">
-						<form class="landing-search" action="location.html">
-							<input type="text" pattern="[0-9]*" name="search" id="search" class="search-textbox" placeholder="Enter Zip Code" />
-							<input type="submit" name="submit" class="search-button button-primary roundCorners" value="Find My Career Center" />
-						</form>
-					</div>
-					<div class="small-12 large-6 columns centered">
-			    		<p class="center-text">
-			    			<span><a href="#" class="gps-icon">Use My Current Location</a></span>
-			    		</p>
-			    	</div>
-			    </div>
-			      <div class="row footer">
-					<div class="large-12 columns centered">
-						<div class="footer-wrap">
-							<span class="connect-with-us-footer">
-								<a href="#" class="facebook"></a>
-								<a href="#" class="twitter"></a>
-								<a href="#" class="youtube"></a>
-								<a href="#" class="flickr"></a>
-							</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
-	<script src="js/jquery.js"></script>
-	<script src="js/off-canvas.js"></script>
-</html>
+	</div>	

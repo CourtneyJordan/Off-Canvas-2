@@ -166,15 +166,14 @@ div p span a {
 	line-height: 2.6;
 }
 
-.page .location-list {
-	margin-top: 54px;
-}
+
 
 .page .location-list img {
 	float: left; 
 	margin-right: 14px; 
-	margin-top: 2px; 
-	border-radius: 34px;
+	margin-top: 3px; 
+	border-radius: 50px;
+	width: 50px;
 }
 
 .page .location-list p {
@@ -196,6 +195,11 @@ div p span a {
 	border: none;
 	border-radius: 5px;
 	font-size: 16px;
+}
+
+.page .gps-icon {
+	background: url(../images/target.png) no-repeat 0 0;
+	padding-left: 22px;
 }
 
 .page .location-address {
@@ -225,8 +229,8 @@ div p span a {
 .page .location-list-view {
 	background: #CFCFC4;
 	font-weight: bold;
-	line-height: 1.9;
-	margin-bottom: 0;
+	line-height: 4.0;
+	font-size: 1.1em;
 	display: block;
 }
 
@@ -375,6 +379,11 @@ div p span a {
 	display: block;
 }
 
+.page .results-displayed {
+	font-weight: bold;
+	margin-top: 50px;
+}
+
 @media only screen and (min-width: 30em) {
 
 	.page .location-image {
@@ -416,6 +425,12 @@ div p span a {
 		cursor: default;
 
 	}
+	
+	.page .location-list-view {
+		line-height: 3.0;
+		font-size: 1.6em;
+	}
+	
 	/* Global Navigation */
 	.open-menu {
 		display:none;
@@ -547,6 +562,13 @@ div p span a {
 		font-size: 1.3em;
 		display: inline-block;
 		width: 100%;
+	}
+
+	.page .gps-icon {
+		margin-right: 80px;
+		font-weight: bold;
+		font-size: 1.2em;
+		background: url(../images/target.png) no-repeat 0px 2px;
 	}	
 
 	.page .landing-search .search-textbox {
@@ -601,7 +623,7 @@ div p span a {
 		display: inline-block !important;
 		padding: 20px;
 	}
-
+	
 	.page .location-list-view {
 		display: none;
 	}
@@ -690,18 +712,37 @@ div p span a {
 		width: 60em !important;
 	}
 
-	/* Location-List Page Styles */
-
-	.page .location-list {
-		margin-top: auto;
-	}
-
 	.large-email {
 		display: block;
 	}
 
 	.small-email {
 		display: none;
+	}
+
+	/* Location-List Page Styles */
+
+	.page .location-list {
+		margin-top: auto;
+	}
+
+	.page .location-list .miles {
+		margin-top: -86px;
+	}
+
+	.page .location-list p {
+		font-size: 1.2em;
+		margin-left: 4em;
+	}
+
+	.page .location-list img {
+		width: 90px;
+		margin-top: 0;
+	}
+	
+	.page .results-displayed {
+		font-weight: bold;
+		margin-top: 12px;
 	}
 
 }

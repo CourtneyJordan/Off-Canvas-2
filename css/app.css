@@ -230,8 +230,10 @@ div p span a {
 	background: #CFCFC4;
 	font-weight: bold;
 	line-height: 4.0;
-	font-size: 1.1em;
+	font-size: 1.6em;
 	display: block;
+	margin-bottom: 0;
+	height: 4em;
 }
 
 .page .location-list-view a {
@@ -429,7 +431,6 @@ div p span a {
 	.page .location-list-view {
 		line-height: 3.0;
 		font-size: 1.6em;
-		margin-bottom: 0;
 	}
 	
 	/* Global Navigation */

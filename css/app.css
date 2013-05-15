@@ -230,10 +230,10 @@ div p span a {
 	background: #CFCFC4;
 	font-weight: bold;
 	line-height: 4.0;
-	font-size: 1.6em;
+	font-size: 1.8em;
 	display: block;
-	margin-bottom: 0;
-	height: 4em;
+	border-radius: 8px;
+	margin: 14px;
 }
 
 .page .location-list-view a {

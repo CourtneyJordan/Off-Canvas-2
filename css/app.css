@@ -230,7 +230,7 @@ div p span a {
 	background: #CFCFC4;
 	font-weight: bold;
 	line-height: 2.5;
-	font-size: 1.8em;
+	font-size: 1.6em;
 	display: block;
 	border-radius: 8px;
 	margin: 14px;
@@ -262,11 +262,12 @@ div p span a {
 .page .location-list p {
 	color: #222222;
 	font-size: 12px;
+	margin-left: 6em;
 }
 
 .page .location-list .miles {
 	float: right;
-	margin-top: -52px;
+	margin-top: -56px;
 	font-weight: bold;
 	color: #5A5A5A;
 	background: url(../images/right-arrow.png) no-repeat right; 
@@ -547,7 +548,7 @@ div p span a {
 	}
 
 	.page .logo-lg {
-		margin: 50px auto;
+		margin: 50px 0 60px;
 		display: block;
 	}
 
@@ -734,7 +735,6 @@ div p span a {
 
 	.page .location-list p {
 		font-size: 1.2em;
-		margin-left: 4em;
 	}
 
 	.page .location-list img {
@@ -747,6 +747,9 @@ div p span a {
 		margin-top: 12px;
 	}
 
+	.page .row .column, .row .columns {
+		padding-left: 1.9375em;
+	}
 }
 
 /* Large Displays: 1280px - 1440px */

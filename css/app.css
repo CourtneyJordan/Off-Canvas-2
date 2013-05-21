@@ -173,11 +173,12 @@ div p span a {
 	margin-right: 14px; 
 	margin-top: 3px; 
 	border-radius: 50px;
-	width: 50px;
+	width: 66px;
 }
 
 .page .location-list p {
 	margin-top: 1.6em;
+	font-size: 1em !important;
 }
 
 .page .landing-search .search-textbox {

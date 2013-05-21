@@ -170,7 +170,7 @@ div p span a {
 	float: left; 
 	margin-right: 14px; 
 	margin-top: 14px; 
-	border-radius: 50px;
+	border-radius: 60px;
 	width: 70px;
 	margin-bottom: 6px;
 }
@@ -415,6 +415,10 @@ div p span a {
 	.page .location-list p {
 		margin-top: 1em;
 		margin-bottom: 2.5em;
+	}
+
+	.page .location-list img {
+		margin-top: 0;
 	}
 
 }	
@@ -757,7 +761,6 @@ div p span a {
 
 	.page .location-list img {
 		width: 90px;
-		margin-top: 0;
 	}
 	
 	.page .results-displayed {

@@ -166,14 +166,12 @@ div p span a {
 	line-height: 2.6;
 }
 
-
-
 .page .location-list img {
 	float: left; 
 	margin-right: 14px; 
 	margin-top: 3px; 
 	border-radius: 50px;
-	width: 50px;
+	width: 70px;
 }
 
 .page .location-list p {
@@ -261,17 +259,19 @@ div p span a {
 
 .page .location-list p {
 	color: #222222;
-	font-size: 12px;
+	font-size: 1em;
 	margin-left: 6em;
 }
 
 .page .location-list .miles {
-	float: right;
-	margin-top: -56px;
-	font-weight: bold;
+	background: none; 
 	color: #5A5A5A;
-	background: url(../images/right-arrow.png) no-repeat right; 
-	padding-right: 19px;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.2em;
+	margin: -10px 0 0 12px;
+	text-align: center;
+	width: 14%;
 }
 
 .page .roundCorners {
@@ -399,6 +399,15 @@ div p span a {
 	.page .landing-search .search-button {
 		width: 50%;
 		display: block;
+	}
+
+	.page .location-list .miles {
+		float: right;
+		margin-top: -56px;
+		font-weight: bold;
+		color: #5A5A5A;
+		background: url(../images/right-arrow.png) no-repeat right; 
+		padding-right: 19px;
 	}
 
 }	

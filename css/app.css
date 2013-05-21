@@ -169,13 +169,15 @@ div p span a {
 .page .location-list img {
 	float: left; 
 	margin-right: 14px; 
-	margin-top: 3px; 
+	margin-top: 14px; 
 	border-radius: 50px;
 	width: 70px;
+	margin-bottom: 6px;
 }
 
 .page .location-list p {
-	margin-top: 1.6em;
+	margin-top: -7.4em;
+	margin-bottom: 3em;
 }
 
 .page .landing-search .search-textbox {
@@ -271,7 +273,7 @@ div p span a {
 	line-height: 1.2em;
 	margin: -10px 0 0 12px;
 	text-align: center;
-	width: 14%;
+	width: 12%;
 }
 
 .page .roundCorners {
@@ -403,11 +405,16 @@ div p span a {
 
 	.page .location-list .miles {
 		float: right;
-		margin-top: -56px;
+		margin-top: 18px !important;
 		font-weight: bold;
 		color: #5A5A5A;
 		background: url(../images/right-arrow.png) no-repeat right; 
 		padding-right: 19px;
+	}
+
+	.page .location-list p {
+		margin-top: 1em;
+		margin-bottom: 2.5em;
 	}
 
 }	
@@ -740,11 +747,12 @@ div p span a {
 	}
 
 	.page .location-list .miles {
-		margin-top: -86px;
+		margin-top: 34px !important;
 	}
 
 	.page .location-list p {
 		font-size: 1.2em;
+		margin-bottom: 1em;
 	}
 
 	.page .location-list img {

@@ -265,15 +265,14 @@ div p span a {
 	margin-left: 6em;
 }
 
-.page .location-list .miles {
-	background: none; 
+.page .location-list .miles { 
 	color: #5A5A5A;
 	font-size: 1.2em;
 	font-weight: bold;
 	line-height: 1.2em;
 	margin: -10px 0 0 12px;
 	text-align: center;
-	width: 12%;
+	width: 50px;
 }
 
 .page .roundCorners {
@@ -406,10 +405,9 @@ div p span a {
 	.page .location-list .miles {
 		float: right;
 		margin-top: 18px !important;
-		font-weight: bold;
 		color: #5A5A5A;
-		background: url(../images/right-arrow.png) no-repeat right; 
-		padding-right: 19px;
+		padding-left: 20px;
+		width: 12%;
 	}
 
 	.page .location-list p {
@@ -752,6 +750,10 @@ div p span a {
 
 	.page .location-list .miles {
 		margin-top: 34px !important;
+		float: right;
+		color: #5A5A5A;
+		background: url(../images/right-arrow.png) no-repeat right; 
+		padding-right: 19px;
 	}
 
 	.page .location-list p {

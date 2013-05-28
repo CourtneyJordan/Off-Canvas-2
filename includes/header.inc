@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="css/app.css">
 
 		<script src="js/custom.modernizr.js"></script>
-		<title>Career Center Locator</title>
+		<title>NYS Career Center Locator</title>
 	</head>
 	<body>
 		<div class="site" id="site">
@@ -22,7 +22,7 @@
 				<a href="#" class="open-menu menu-icon" id="open-menu" >
 					<img alt="Site Menu" src="images/menu.png" />
 				</a>
-				<h1>Career Center Locator</h1>
+				<h1>NYS Career Center Locator</h1>
 				<a href="http://www.ny.gov/" class="nys-icon">
 					<img alt="" src="images/new-york-state-image.png" />
 				</a>
@@ -37,18 +37,18 @@
 					</form>
 				</div>
 				<div class="main-nav-contents">
-					<a href="index.html">Find a Career Center</a>
-					<a href="#">Job Seeker Assistance</a>
+					<a href="./">Find a Career Center</a>
+					<a href="http://labor.ny.gov/careerservices/CareerServicesIndex.shtm" target="_blank">Job Seeker Assistance</a>
 					<a href="http://jobzone.ny.gov/" target="_blank">JobZone</a>
 					<a href="http://careerzone.ny.gov/" target="_blank">CareerZone</a>
 					<a href="http://laborny.jobs" target="_blank">Job Openings</a>
 				</div>
 				<div class="connect-with-us-div">
 					<span class="connect-with-us">
-						<a href="#" class="facebook"></a>
-						<a href="#" class="twitter"></a>
-						<a href="#" class="youtube"></a>
-						<a href="#" class="flickr"></a>
+						<a href="https://www.facebook.com/nyslabor" target="_blank" class="facebook"></a>
+				<a href="https://twitter.com/nyslabor" target="_blank" class="twitter"></a>
+				<a href="http://www.youtube.com/user/NYSLabor" target="_blank" class="youtube"></a>
+				<a href="http://www.flickr.com/photos/nyslabor/" target="_blank" class="flickr"></a>
 					</span>
 				</div>
 			</div>

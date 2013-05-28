@@ -388,7 +388,23 @@ div p span a {
 	margin-top: 50px;
 }
 
+.large-ccl-header {
+	display: none;
+}
+
+.small-ccl-header {
+	display: block;
+}
+
 @media only screen and (min-width: 30em) {
+
+	.large-ccl-header {
+		display: block;
+	}
+
+	.small-ccl-header {
+		display: none;
+	}
 
 	.page .location-image {
 		margin: 0 auto;
@@ -426,7 +442,7 @@ div p span a {
 @media only screen and (min-width: 48em) {
 	body {
 		background: #222;
-		overflow: hidden;
+		overflow: scroll;
 	}
 
 	.page {
@@ -754,7 +770,7 @@ div p span a {
 		float: right;
 		color: #5A5A5A;
 		background: url(../images/right-arrow.png) no-repeat right; 
-		padding-right: 19px;
+		padding-right: 18px;
 	}
 
 	.page .location-list p {
